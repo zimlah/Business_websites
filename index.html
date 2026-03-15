@@ -1,5 +1,370 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>McKesson Properties Limited | Abuja Real Estate</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<style>
+
+body{
+margin:0;
+font-family:'Montserrat',sans-serif;
+line-height:1.6;
+}
+
+nav{
+background:#0a192f;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 8%;
+position:fixed;
+width:100%;
+z-index:1000;
+}
+
+.logo{
+color:#c5a059;
+font-size:22px;
+font-family:'Playfair Display',serif;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+nav ul li{
+margin-left:25px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url("https://images.unsplash.com/photo-1560518883-ce09059eeffa");
+background-size:cover;
+background-position:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+font-size:48px;
+font-family:'Playfair Display',serif;
+}
+
+.hero p{
+max-width:600px;
+}
+
+.btn{
+background:#c5a059;
+padding:12px 28px;
+color:white;
+text-decoration:none;
+margin-top:20px;
+display:inline-block;
+}
+
+section{
+padding:80px 10%;
+}
+
+.section-title{
+text-align:center;
+font-size:32px;
+font-family:'Playfair Display',serif;
+margin-bottom:40px;
+}
+
+.about{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:center;
+}
+
+.about img{
+width:100%;
+border-radius:5px;
+}
+
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.service-box{
+border:1px solid #eee;
+padding:30px;
+text-align:center;
+}
+
+.service-box i{
+font-size:40px;
+color:#c5a059;
+margin-bottom:15px;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:15px;
+}
+
+.gallery img{
+width:100%;
+height:260px;
+object-fit:cover;
+border-radius:6px;
+}
+
+.contact{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+}
+
+.contact-item{
+display:flex;
+align-items:center;
+margin-bottom:20px;
+}
+
+.contact-item i{
+background:#c5a059;
+color:white;
+width:40px;
+height:40px;
+display:flex;
+align-items:center;
+justify-content:center;
+border-radius:50%;
+margin-right:15px;
+}
+
+.contact-item a{
+text-decoration:none;
+color:#333;
+}
+
+.contact-form input,
+.contact-form textarea{
+width:100%;
+padding:10px;
+margin-bottom:15px;
+border:1px solid #ddd;
+}
+
+footer{
+background:#0a192f;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+@media(max-width:768px){
+
+.about{
+grid-template-columns:1fr;
+}
+
+.contact{
+grid-template-columns:1fr;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<nav>
+
+<div class="logo">MCKESSON</div>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+
+
+<section class="hero" id="home">
+
+<h1>Elevating Your Lifestyle</h1>
+
+<p>Premium real estate solutions in the heart of Abuja. We turn your property dreams into addresses.</p>
+
+<a href="#contact" class="btn">Book a Consultation</a>
+
+</section>
+
+
+
+<section id="about">
+
+<h2 class="section-title">About Us</h2>
+
+<div class="about">
+
+<img src="https://images.unsplash.com/photo-1572120360610-d971b9d7767c">
+
+<div>
+
+<h3>Excellence in Every Square Foot</h3>
+
+<p>
+McKesson Properties Limited is a leading real estate firm based in Abuja. We specialize in providing bespoke property solutions ranging from luxury residential sales to commercial property management.
+</p>
+
+<p>
+With a deep understanding of the Federal Capital Territory market, we ensure our clients receive unparalleled value and professional integrity.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="services">
+
+<h2 class="section-title">Our Services</h2>
+
+<div class="services">
+
+<div class="service-box">
+<i class="fas fa-home"></i>
+<h3>Property Sales</h3>
+<p>Finding the perfect home or investment property with ease and transparency.</p>
+</div>
+
+<div class="service-box">
+<i class="fas fa-building"></i>
+<h3>Property Management</h3>
+<p>Comprehensive management services to maintain and enhance property value.</p>
+</div>
+
+<div class="service-box">
+<i class="fas fa-chart-line"></i>
+<h3>Real Estate Advisory</h3>
+<p>Expert market analysis and investment consulting for high-growth opportunities.</p>
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="gallery">
+
+<h2 class="section-title">Property Gallery</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c">
+
+<img src="https://images.unsplash.com/photo-1600607687644-c7171b42498c">
+
+<img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3">
+
+</div>
+
+</section>
+
+
+
+<section id="contact">
+
+<h2 class="section-title">Get In Touch</h2>
+
+<div class="contact">
+
+<div>
+
+<div class="contact-item">
+<i class="fas fa-map-marker-alt"></i>
+<p>3rd Floor, 22 Koforidua Street, Wuse, Abuja</p>
+</div>
+
+<div class="contact-item">
+<i class="fas fa-phone"></i>
+<a href="tel:08067171278">08067171278</a>
+</div>
+
+<div class="contact-item">
+<i class="fas fa-envelope"></i>
+<a href="mailto:info@mckessonproperties.com">info@mckessonproperties.com</a>
+</div>
+
+</div>
+
+
+<div class="contact-form">
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Your Email" required>
+
+<textarea rows="5" placeholder="Your Message"></textarea>
+
+<button class="btn">Send Message</button>
+
+</form>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<footer>
+
+<p>© 2024 McKesson Properties Limited. All rights reserved.</p>
+
+</footer>
+
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
